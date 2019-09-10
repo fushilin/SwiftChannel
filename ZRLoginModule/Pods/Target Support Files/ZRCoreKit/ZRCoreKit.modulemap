@@ -1,0 +1,6 @@
+module ZRCoreKit {
+  umbrella header "ZRCoreKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

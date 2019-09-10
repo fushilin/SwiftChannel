@@ -1,0 +1,196 @@
+PODS:
+  - Alamofire (4.8.2)
+  - CryptoSwift (1.0.0)
+  - GzipSwift (5.0.0)
+  - KeychainAccess (3.2.0)
+  - Kingfisher (4.10.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ObjectMapper (3.5.1)
+  - Realm (3.17.3):
+    - Realm/Headers (= 3.17.3)
+  - Realm/Headers (3.17.3)
+  - RealmSwift (3.17.3):
+    - Realm (= 3.17.3)
+  - Result (4.1.0)
+  - SnapKit (4.2.0)
+  - Starscream (3.1.0)
+  - SwiftHEXColors (1.3.0)
+  - SwiftyRSA (1.5.0):
+    - SwiftyRSA/ObjC (= 1.5.0)
+  - SwiftyRSA/ObjC (1.5.0)
+  - XCGLogger (7.0.0):
+    - XCGLogger/Core (= 7.0.0)
+  - XCGLogger/Core (7.0.0):
+    - ObjcExceptionBridging
+  - ZRBase (0.0.7):
+    - ZRBase/Configuration (= 0.0.7)
+    - ZRBase/Encrypt (= 0.0.7)
+    - ZRBase/Language (= 0.0.7)
+    - ZRBase/Namespace (= 0.0.7)
+    - ZRBase/Storage (= 0.0.7)
+    - ZRBase/Utility (= 0.0.7)
+  - ZRBase/Configuration (0.0.7):
+    - XCGLogger
+  - ZRBase/Encrypt (0.0.7):
+    - CryptoSwift
+  - ZRBase/Language (0.0.7):
+    - ZRBase/Storage
+  - ZRBase/Namespace (0.0.7)
+  - ZRBase/Storage (0.0.7):
+    - CryptoSwift
+    - RealmSwift
+    - ZRBase/Configuration
+  - ZRBase/Utility (0.0.7):
+    - KeychainAccess
+    - ZRBase/Language
+    - ZRBase/Namespace
+    - ZRBase/Storage
+  - ZRCoreKit (0.0.5):
+    - SnapKit
+    - SwiftHEXColors
+    - ZRBase
+    - ZRCoreKit/Router (= 0.0.5)
+    - ZRCoreKit/RTRootNavigationController (= 0.0.5)
+    - ZRCoreKit/Utility (= 0.0.5)
+    - ZRCoreKit/ViewControllers (= 0.0.5)
+    - ZRCoreKit/Views (= 0.0.5)
+    - ZRNetwork
+  - ZRCoreKit/Router (0.0.5):
+    - SnapKit
+    - SwiftHEXColors
+    - ZRBase
+    - ZRCoreKit/RTRootNavigationController
+    - ZRNetwork
+  - ZRCoreKit/RTRootNavigationController (0.0.5):
+    - SnapKit
+    - SwiftHEXColors
+    - ZRBase
+    - ZRNetwork
+  - ZRCoreKit/Utility (0.0.5):
+    - Kingfisher
+    - SnapKit
+    - SwiftHEXColors
+    - ZRBase
+    - ZRNetwork
+  - ZRCoreKit/ViewControllers (0.0.5):
+    - SnapKit
+    - SwiftHEXColors
+    - ZRBase
+    - ZRCoreKit/Router
+    - ZRCoreKit/RTRootNavigationController
+    - ZRCoreKit/Utility
+    - ZRCoreKit/Views
+    - ZRNetwork
+  - ZRCoreKit/Views (0.0.5):
+    - SnapKit
+    - SwiftHEXColors
+    - ZRBase
+    - ZRCoreKit/Utility
+    - ZRNetwork
+  - ZRModel (0.0.2):
+    - ObjectMapper
+    - ZRBase
+    - ZRModel/Models (= 0.0.2)
+    - ZRModel/User (= 0.0.2)
+    - ZRModel/Utility (= 0.0.2)
+  - ZRModel/Models (0.0.2):
+    - ObjectMapper
+    - ZRBase
+    - ZRModel/Utility
+  - ZRModel/User (0.0.2):
+    - ObjectMapper
+    - ZRBase
+    - ZRModel/Utility
+  - ZRModel/Utility (0.0.2):
+    - ObjectMapper
+    - ZRBase
+  - ZRNetwork (0.0.7):
+    - ZRBase
+    - ZRModel
+    - ZRNetwork/HTTP (= 0.0.7)
+    - ZRNetwork/Utility (= 0.0.7)
+    - ZRNetwork/WebSocket (= 0.0.7)
+  - ZRNetwork/HTTP (0.0.7):
+    - Alamofire
+    - Moya
+    - ObjectMapper
+    - ZRBase
+    - ZRModel
+    - ZRNetwork/Utility
+  - ZRNetwork/Utility (0.0.7):
+    - SwiftyRSA
+    - ZRBase
+    - ZRModel
+  - ZRNetwork/WebSocket (0.0.7):
+    - GzipSwift
+    - ObjectMapper
+    - Starscream
+    - ZRBase
+    - ZRModel
+    - ZRNetwork/Utility
+
+DEPENDENCIES:
+  - ZRBase
+  - ZRCoreKit
+  - ZRModel
+  - ZRNetwork
+
+SPEC REPOS:
+  http://192.168.1.203/iOS/ZRBase.git:
+    - ZRBase
+  http://192.168.1.203/iOS/ZRCoreKit.git:
+    - ZRCoreKit
+  http://192.168.1.203/iOS/ZRModel.git:
+    - ZRModel
+  http://192.168.1.203/iOS/ZRNetwork.git:
+    - ZRNetwork
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CryptoSwift
+    - GzipSwift
+    - KeychainAccess
+    - Kingfisher
+    - Moya
+    - ObjcExceptionBridging
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+    - Result
+    - SnapKit
+    - Starscream
+    - SwiftHEXColors
+    - SwiftyRSA
+    - XCGLogger
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  GzipSwift: 5592f4d62b641e04d06443ba471f8ed76b1363e4
+  KeychainAccess: 3b1bf8a77eb4c6ea1ce9404c292e48f948954c6b
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
+  RealmSwift: b7fdc2d18616621c31df5c7a398a45a2163f8eb0
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+  SwiftHEXColors: 15ab5242cc2efeab548c4c74793b173b78dbae1c
+  SwiftyRSA: 6e528fb1b1a87d5111c48081083b141d6d65f1cf
+  XCGLogger: 0434f15e3909cdc450bb63faf638b8792ab782ab
+  ZRBase: ac53ba38b49a0d7d7b5d24ed09e169d9c336e453
+  ZRCoreKit: 8167db790e6a6ca7f6e06182d1febd948e9b59e4
+  ZRModel: 839f8d76f4a1847b7011dfab616a763299bc05ab
+  ZRNetwork: 3cef9a5aeffb4c4220da90374e1cef1499a6d16c
+
+PODFILE CHECKSUM: da8439d836be0749f47ee0ff5adbfb9792c083e2
+
+COCOAPODS: 1.7.5
