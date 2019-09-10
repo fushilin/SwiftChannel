@@ -1,0 +1,6 @@
+module DGElasticPullToRefresh {
+  umbrella header "DGElasticPullToRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

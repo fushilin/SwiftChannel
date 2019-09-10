@@ -1,0 +1,25 @@
+platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://192.168.1.203/iOS/ZRBase.git'
+source 'http://192.168.1.203/iOS/ZRCoreKit.git'
+source 'http://192.168.1.203/iOS/ZRNetwork.git'
+source 'http://192.168.1.203/iOS/ZRModel.git'
+
+def shared_pods
+pod 'ZRBase'
+pod 'ZRCoreKit'
+pod 'ZRNetwork'
+pod 'ZRModel'
+end
+
+
+target 'ZRLoginModule' do
+    
+inhibit_all_warnings! #消除第三方库的黄色警告
+#use_frameworks!
+use_modular_headers!
+
+
+shared_pods
+
+end

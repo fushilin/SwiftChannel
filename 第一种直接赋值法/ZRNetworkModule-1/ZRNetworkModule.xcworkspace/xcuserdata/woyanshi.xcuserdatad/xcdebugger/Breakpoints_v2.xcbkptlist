@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZRNetworkModule/WebSocket/SocketIOPacket.swift"
+            timestampString = "586599409.106221"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "SocketIOPacket"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZRNetworkModule.SocketIOPacket.(timer in _13949983D78AE628203D8204691D0ED3).getter : Swift.Optional&lt;__C.OS_dispatch_source_timer&gt;"
+                  moduleName = "ZRNetworkModule"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/woyanshi/Desktop/%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6/2019.08.04/ZRNetworkModule-1/ZRNetworkModule/WebSocket/SocketIOPacket.swift"
+                  timestampString = "586599409.30419"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZRNetworkModule.SocketIOPacket.(timer in _13949983D78AE628203D8204691D0ED3).setter : Swift.Optional&lt;__C.OS_dispatch_source_timer&gt;"
+                  moduleName = "ZRNetworkModule"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/woyanshi/Desktop/%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6/2019.08.04/ZRNetworkModule-1/ZRNetworkModule/WebSocket/SocketIOPacket.swift"
+                  timestampString = "586599409.3056051"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZRNetworkModule.SocketIOPacket.(timer in _13949983D78AE628203D8204691D0ED3).modify : Swift.Optional&lt;__C.OS_dispatch_source_timer&gt;"
+                  moduleName = "ZRNetworkModule"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/woyanshi/Desktop/%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6/2019.08.04/ZRNetworkModule-1/ZRNetworkModule/WebSocket/SocketIOPacket.swift"
+                  timestampString = "586599409.3069921"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZRNetworkModule.SocketIOPacket.(timer in _13949983D78AE628203D8204691D0ED3).modify : Swift.Optional&lt;__C.OS_dispatch_source_timer&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ZRNetworkModule"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/woyanshi/Desktop/%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6/2019.08.04/ZRNetworkModule-1/ZRNetworkModule/WebSocket/SocketIOPacket.swift"
+                  timestampString = "586599409.3085051"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZRNetworkModule/JerryViewController.swift"
+            timestampString = "586604393.501078"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

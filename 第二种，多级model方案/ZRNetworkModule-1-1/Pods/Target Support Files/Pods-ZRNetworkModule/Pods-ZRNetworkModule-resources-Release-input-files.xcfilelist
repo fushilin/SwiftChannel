@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-ZRNetworkModule/Pods-ZRNetworkModule-resources.sh
+${PODS_ROOT}/XCGLogger/.swift-version
+${PODS_CONFIGURATION_BUILD_DIR}/ZRNetwork/Network.bundle

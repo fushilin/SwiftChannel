@@ -1,0 +1,29 @@
+platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://192.168.1.203/iOS/ZRBase.git'
+source 'http://192.168.1.203/iOS/ZRModel.git'
+source 'http://192.168.1.203/iOS/ZRNetwork.git'
+
+def shared_pods
+pod 'Alamofire'
+pod 'Moya'
+pod 'ObjectMapper'
+pod 'ZRBase'
+pod 'SwiftyRSA'
+pod 'Starscream'
+pod 'ZRModel'
+pod 'GzipSwift'
+pod 'ZRNetwork'
+end
+
+
+target 'ZRNetworkModule' do
+    
+inhibit_all_warnings! #消除第三方库的黄色警告
+#use_frameworks!
+use_modular_headers!
+
+
+shared_pods
+
+end
