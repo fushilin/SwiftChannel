@@ -1,0 +1,6 @@
+module ZRModel {
+  umbrella header "ZRModel-umbrella.h"
+
+  export *
+  module * { export * }
+}
