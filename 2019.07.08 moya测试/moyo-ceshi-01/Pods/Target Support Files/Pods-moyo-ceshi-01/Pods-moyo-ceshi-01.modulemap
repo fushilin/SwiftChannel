@@ -1,6 +1,0 @@
-module Pods_moyo_ceshi_01 {
-  umbrella header "Pods-moyo-ceshi-01-umbrella.h"
-
-  export *
-  module * { export * }
-}

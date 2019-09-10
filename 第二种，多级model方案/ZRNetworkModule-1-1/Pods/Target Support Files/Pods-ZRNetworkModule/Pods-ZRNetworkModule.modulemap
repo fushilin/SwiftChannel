@@ -1,6 +1,0 @@
-module Pods_ZRNetworkModule {
-  umbrella header "Pods-ZRNetworkModule-umbrella.h"
-
-  export *
-  module * { export * }
-}
