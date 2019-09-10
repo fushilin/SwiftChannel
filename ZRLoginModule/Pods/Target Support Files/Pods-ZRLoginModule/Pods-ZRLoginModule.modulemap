@@ -1,6 +1,0 @@
-module Pods_ZRLoginModule {
-  umbrella header "Pods-ZRLoginModule-umbrella.h"
-
-  export *
-  module * { export * }
-}

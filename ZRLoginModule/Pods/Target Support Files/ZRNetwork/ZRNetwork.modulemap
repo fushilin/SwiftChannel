@@ -1,6 +1,0 @@
-module ZRNetwork {
-  umbrella header "ZRNetwork-umbrella.h"
-
-  export *
-  module * { export * }
-}
