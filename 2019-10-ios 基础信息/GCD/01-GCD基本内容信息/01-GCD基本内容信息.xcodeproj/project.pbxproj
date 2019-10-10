@@ -15,6 +15,7 @@
 		C20E071E234F1AF8002E9813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E071D234F1AF8002E9813 /* main.m */; };
 		C20E0728234F1AF8002E9813 /* _1_GCD______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E0727234F1AF8002E9813 /* _1_GCD______Tests.m */; };
 		C20E0733234F1AF8002E9813 /* _1_GCD______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E0732234F1AF8002E9813 /* _1_GCD______UITests.m */; };
+		C20E0742234F3757002E9813 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E0741234F3757002E9813 /* Tools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C20E072E234F1AF8002E9813 /* 01-GCD基本内容信息UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-GCD基本内容信息UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20E0732234F1AF8002E9813 /* _1_GCD______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_GCD______UITests.m"; sourceTree = "<group>"; };
 		C20E0734234F1AF8002E9813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20E0740234F3757002E9813 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		C20E0741234F3757002E9813 /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C20E070F234F1AF6002E9813 /* AppDelegate.m */,
 				C20E0711234F1AF6002E9813 /* ViewController.h */,
 				C20E0712234F1AF6002E9813 /* ViewController.m */,
+				C20E0740234F3757002E9813 /* Tools.h */,
+				C20E0741234F3757002E9813 /* Tools.m */,
 				C20E0714234F1AF6002E9813 /* Main.storyboard */,
 				C20E0717234F1AF8002E9813 /* Assets.xcassets */,
 				C20E0719234F1AF8002E9813 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				C20E0713234F1AF6002E9813 /* ViewController.m in Sources */,
 				C20E071E234F1AF8002E9813 /* main.m in Sources */,
 				C20E0710234F1AF6002E9813 /* AppDelegate.m in Sources */,
+				C20E0742234F3757002E9813 /* Tools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
