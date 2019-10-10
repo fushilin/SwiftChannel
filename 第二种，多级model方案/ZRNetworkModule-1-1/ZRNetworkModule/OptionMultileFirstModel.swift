@@ -13,7 +13,7 @@ import UIKit
 class OptionMultileFirstModel: NSObject {
     var index:NSInteger = 0
     var optionMultileSecondeModel:OptionMultileSecondModel = OptionMultileSecondModel()
- override convenience init() {
+    override convenience init() {
        self.init()
     
     }
