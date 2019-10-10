@@ -79,8 +79,23 @@
 
 // c 创建最大的并发数量 默认最大的并发数量是 -1
     
-    ///
+    /// 添加操作依赖操作
+    NSBlockOperation *op5 = [NSBlockOperation blockOperationWithBlock:^{
+        
+    }];
     
+    NSBlockOperation *op6 = [NSBlockOperation blockOperationWithBlock:^{
+        
+    }];
+    
+    /// 依赖于执行结束，再重新执行
+    
+    [op5 addDependency:op6];
+    
+    /// 监听执行操作
+    op5.completionBlock = ^{
+        
+    };
 }
 
 
