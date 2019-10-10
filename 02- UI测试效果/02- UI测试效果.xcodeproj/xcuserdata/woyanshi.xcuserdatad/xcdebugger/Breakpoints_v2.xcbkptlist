@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02- UI&#x6d4b;&#x8bd5;&#x6548;&#x679c;Tests/_2__UI____Tests.m"
+            timestampString = "591241099.50858"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "-tearDown"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02- UI&#x6d4b;&#x8bd5;&#x6548;&#x679c;Tests/_2__UI____Tests.m"
+            timestampString = "591241099.510439"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "-testExample"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "02- UI&#x6d4b;&#x8bd5;&#x6548;&#x679c;Tests/_2__UI____Tests.m"
+            timestampString = "591241099.510686"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "-testPerformanceExample"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[___FILEBASENAMEASIDENTIFIER___ testPerformanceExample]"
+                  moduleName = "02- UI&#x6d4b;&#x8bd5;&#x6548;&#x679c;Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/woyanshi/Desktop/Swift%20%E6%80%BB%E4%BB%93%E5%BA%93/02-%20UI%E6%B5%8B%E8%AF%95%E6%95%88%E6%9E%9C/02-%20UI%E6%B5%8B%E8%AF%95%E6%95%88%E6%9E%9CTests/_2__UI____Tests.m"
+                  timestampString = "591241100.163515"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__56-[___FILEBASENAMEASIDENTIFIER___ testPerformanceExample]_block_invoke"
+                  moduleName = "02- UI&#x6d4b;&#x8bd5;&#x6548;&#x679c;Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/woyanshi/Desktop/Swift%20%E6%80%BB%E4%BB%93%E5%BA%93/02-%20UI%E6%B5%8B%E8%AF%95%E6%95%88%E6%9E%9C/02-%20UI%E6%B5%8B%E8%AF%95%E6%95%88%E6%9E%9CTests/_2__UI____Tests.m"
+                  timestampString = "591241100.164747"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
