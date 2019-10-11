@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target '01-GCD基本内容信息' do
+
+  use_frameworks!
+
+ 
+
+  target '01-GCD基本内容信息UITests' do
+  
+	pod "SDWebImage"
+
+  end
+
+end

@@ -13,31 +13,21 @@
 		C20E0718234F1AF8002E9813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20E0717234F1AF8002E9813 /* Assets.xcassets */; };
 		C20E071B234F1AF8002E9813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20E0719234F1AF8002E9813 /* LaunchScreen.storyboard */; };
 		C20E071E234F1AF8002E9813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E071D234F1AF8002E9813 /* main.m */; };
-		C20E0728234F1AF8002E9813 /* _1_GCD______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E0727234F1AF8002E9813 /* _1_GCD______Tests.m */; };
-		C20E0733234F1AF8002E9813 /* _1_GCD______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E0732234F1AF8002E9813 /* _1_GCD______UITests.m */; };
 		C20E0742234F3757002E9813 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E0741234F3757002E9813 /* Tools.m */; };
 		C20E0745234F4EDA002E9813 /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E0744234F4EDA002E9813 /* NSOperationViewController.m */; };
 		C20E0748234F53B5002E9813 /* NSOperationQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E0747234F53B5002E9813 /* NSOperationQueueViewController.m */; };
+		C20E074B235015FE002E9813 /* ConnectNSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E074A235015FE002E9813 /* ConnectNSOperationViewController.m */; };
+		C20E074E23501B18002E9813 /* FileMangeCash.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E074D23501B18002E9813 /* FileMangeCash.m */; };
+		C20E075123501E61002E9813 /* DownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E075023501E61002E9813 /* DownLoadViewController.m */; };
+		C20E075523502648002E9813 /* Pods_01_GCD基本内容信息.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20E075423502648002E9813 /* Pods_01_GCD基本内容信息.framework */; };
+		C20E075723502652002E9813 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20E075623502652002E9813 /* SDWebImage.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C20E0724234F1AF8002E9813 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C20E0703234F1AF6002E9813 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C20E070A234F1AF6002E9813;
-			remoteInfo = "01-GCD基本内容信息";
-		};
-		C20E072F234F1AF8002E9813 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C20E0703234F1AF6002E9813 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C20E070A234F1AF6002E9813;
-			remoteInfo = "01-GCD基本内容信息";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		1A51AF16828FF27A7A2ED7C8 /* Pods_01_GCD_______01_GCD______UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_01_GCD_______01_GCD______UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6401A571CB18D3DB8B2C2BF9 /* Pods-01-GCD基本内容信息-01-GCD基本内容信息UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-GCD基本内容信息-01-GCD基本内容信息UITests.debug.xcconfig"; path = "Target Support Files/Pods-01-GCD基本内容信息-01-GCD基本内容信息UITests/Pods-01-GCD基本内容信息-01-GCD基本内容信息UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F27613B8500DC8F4B8D2767 /* Pods_01_GCD______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_01_GCD______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF9E9EB648AFE8032A891F4 /* Pods-01-GCD基本内容信息.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-GCD基本内容信息.debug.xcconfig"; path = "Target Support Files/Pods-01-GCD基本内容信息/Pods-01-GCD基本内容信息.debug.xcconfig"; sourceTree = "<group>"; };
 		C20E070B234F1AF6002E9813 /* 01-GCD基本内容信息.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-GCD基本内容信息.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20E070E234F1AF6002E9813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C20E070F234F1AF6002E9813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,10 +38,8 @@
 		C20E071A234F1AF8002E9813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C20E071C234F1AF8002E9813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C20E071D234F1AF8002E9813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C20E0723234F1AF8002E9813 /* 01-GCD基本内容信息Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-GCD基本内容信息Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20E0727234F1AF8002E9813 /* _1_GCD______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_GCD______Tests.m"; sourceTree = "<group>"; };
 		C20E0729234F1AF8002E9813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C20E072E234F1AF8002E9813 /* 01-GCD基本内容信息UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-GCD基本内容信息UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20E0732234F1AF8002E9813 /* _1_GCD______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_GCD______UITests.m"; sourceTree = "<group>"; };
 		C20E0734234F1AF8002E9813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C20E0740234F3757002E9813 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
@@ -60,6 +48,17 @@
 		C20E0744234F4EDA002E9813 /* NSOperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
 		C20E0746234F53B5002E9813 /* NSOperationQueueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationQueueViewController.h; sourceTree = "<group>"; };
 		C20E0747234F53B5002E9813 /* NSOperationQueueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationQueueViewController.m; sourceTree = "<group>"; };
+		C20E0749235015FE002E9813 /* ConnectNSOperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectNSOperationViewController.h; sourceTree = "<group>"; };
+		C20E074A235015FE002E9813 /* ConnectNSOperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectNSOperationViewController.m; sourceTree = "<group>"; };
+		C20E074C23501B18002E9813 /* FileMangeCash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileMangeCash.h; sourceTree = "<group>"; };
+		C20E074D23501B18002E9813 /* FileMangeCash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileMangeCash.m; sourceTree = "<group>"; };
+		C20E074F23501E61002E9813 /* DownLoadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownLoadViewController.h; sourceTree = "<group>"; };
+		C20E075023501E61002E9813 /* DownLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownLoadViewController.m; sourceTree = "<group>"; };
+		C20E07522350259B002E9813 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20E075423502648002E9813 /* Pods_01_GCD基本内容信息.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_01_GCD基本内容信息.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20E075623502652002E9813 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2973FD976A6BB7A3ECC03EE /* Pods-01-GCD基本内容信息-01-GCD基本内容信息UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-GCD基本内容信息-01-GCD基本内容信息UITests.release.xcconfig"; path = "Target Support Files/Pods-01-GCD基本内容信息-01-GCD基本内容信息UITests/Pods-01-GCD基本内容信息-01-GCD基本内容信息UITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF5808A3A5278A1B0835AACA /* Pods-01-GCD基本内容信息.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-GCD基本内容信息.release.xcconfig"; path = "Target Support Files/Pods-01-GCD基本内容信息/Pods-01-GCD基本内容信息.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,20 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C20E0720234F1AF8002E9813 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C20E072B234F1AF8002E9813 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C20E075723502652002E9813 /* SDWebImage.framework in Frameworks */,
+				C20E075523502648002E9813 /* Pods_01_GCD基本内容信息.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +81,8 @@
 				C20E0726234F1AF8002E9813 /* 01-GCD基本内容信息Tests */,
 				C20E0731234F1AF8002E9813 /* 01-GCD基本内容信息UITests */,
 				C20E070C234F1AF6002E9813 /* Products */,
+				D862D018353DA5A3875317C2 /* Pods */,
+				D764DF64720673C89883BBC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				C20E070B234F1AF6002E9813 /* 01-GCD基本内容信息.app */,
-				C20E0723234F1AF8002E9813 /* 01-GCD基本内容信息Tests.xctest */,
-				C20E072E234F1AF8002E9813 /* 01-GCD基本内容信息UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +107,12 @@
 				C20E0744234F4EDA002E9813 /* NSOperationViewController.m */,
 				C20E0746234F53B5002E9813 /* NSOperationQueueViewController.h */,
 				C20E0747234F53B5002E9813 /* NSOperationQueueViewController.m */,
+				C20E0749235015FE002E9813 /* ConnectNSOperationViewController.h */,
+				C20E074A235015FE002E9813 /* ConnectNSOperationViewController.m */,
+				C20E074F23501E61002E9813 /* DownLoadViewController.h */,
+				C20E075023501E61002E9813 /* DownLoadViewController.m */,
+				C20E074C23501B18002E9813 /* FileMangeCash.h */,
+				C20E074D23501B18002E9813 /* FileMangeCash.m */,
 				C20E0714234F1AF6002E9813 /* Main.storyboard */,
 				C20E0717234F1AF8002E9813 /* Assets.xcassets */,
 				C20E0719234F1AF8002E9813 /* LaunchScreen.storyboard */,
@@ -147,6 +140,29 @@
 			path = "01-GCD基本内容信息UITests";
 			sourceTree = "<group>";
 		};
+		D764DF64720673C89883BBC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C20E075623502652002E9813 /* SDWebImage.framework */,
+				C20E075423502648002E9813 /* Pods_01_GCD基本内容信息.framework */,
+				C20E07522350259B002E9813 /* SDWebImage.framework */,
+				9F27613B8500DC8F4B8D2767 /* Pods_01_GCD______.framework */,
+				1A51AF16828FF27A7A2ED7C8 /* Pods_01_GCD_______01_GCD______UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D862D018353DA5A3875317C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAF9E9EB648AFE8032A891F4 /* Pods-01-GCD基本内容信息.debug.xcconfig */,
+				DF5808A3A5278A1B0835AACA /* Pods-01-GCD基本内容信息.release.xcconfig */,
+				6401A571CB18D3DB8B2C2BF9 /* Pods-01-GCD基本内容信息-01-GCD基本内容信息UITests.debug.xcconfig */,
+				D2973FD976A6BB7A3ECC03EE /* Pods-01-GCD基本内容信息-01-GCD基本内容信息UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C20E0737234F1AF8002E9813 /* Build configuration list for PBXNativeTarget "01-GCD基本内容信息" */;
 			buildPhases = (
+				7893599384597C765572327E /* [CP] Check Pods Manifest.lock */,
 				C20E0707234F1AF6002E9813 /* Sources */,
 				C20E0708234F1AF6002E9813 /* Frameworks */,
 				C20E0709234F1AF6002E9813 /* Resources */,
@@ -167,42 +184,6 @@
 			productReference = C20E070B234F1AF6002E9813 /* 01-GCD基本内容信息.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C20E0722234F1AF8002E9813 /* 01-GCD基本内容信息Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C20E073A234F1AF8002E9813 /* Build configuration list for PBXNativeTarget "01-GCD基本内容信息Tests" */;
-			buildPhases = (
-				C20E071F234F1AF8002E9813 /* Sources */,
-				C20E0720234F1AF8002E9813 /* Frameworks */,
-				C20E0721234F1AF8002E9813 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C20E0725234F1AF8002E9813 /* PBXTargetDependency */,
-			);
-			name = "01-GCD基本内容信息Tests";
-			productName = "01-GCD基本内容信息Tests";
-			productReference = C20E0723234F1AF8002E9813 /* 01-GCD基本内容信息Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C20E072D234F1AF8002E9813 /* 01-GCD基本内容信息UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C20E073D234F1AF8002E9813 /* Build configuration list for PBXNativeTarget "01-GCD基本内容信息UITests" */;
-			buildPhases = (
-				C20E072A234F1AF8002E9813 /* Sources */,
-				C20E072B234F1AF8002E9813 /* Frameworks */,
-				C20E072C234F1AF8002E9813 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C20E0730234F1AF8002E9813 /* PBXTargetDependency */,
-			);
-			name = "01-GCD基本内容信息UITests";
-			productName = "01-GCD基本内容信息UITests";
-			productReference = C20E072E234F1AF8002E9813 /* 01-GCD基本内容信息UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,14 +195,6 @@
 				TargetAttributes = {
 					C20E070A234F1AF6002E9813 = {
 						CreatedOnToolsVersion = 10.2;
-					};
-					C20E0722234F1AF8002E9813 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = C20E070A234F1AF6002E9813;
-					};
-					C20E072D234F1AF8002E9813 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = C20E070A234F1AF6002E9813;
 					};
 				};
 			};
@@ -239,8 +212,6 @@
 			projectRoot = "";
 			targets = (
 				C20E070A234F1AF6002E9813 /* 01-GCD基本内容信息 */,
-				C20E0722234F1AF8002E9813 /* 01-GCD基本内容信息Tests */,
-				C20E072D234F1AF8002E9813 /* 01-GCD基本内容信息UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,21 +227,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C20E0721234F1AF8002E9813 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C20E072C234F1AF8002E9813 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7893599384597C765572327E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-01-GCD基本内容信息-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C20E0707234F1AF6002E9813 /* Sources */ = {
@@ -278,44 +260,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C20E0748234F53B5002E9813 /* NSOperationQueueViewController.m in Sources */,
+				C20E074E23501B18002E9813 /* FileMangeCash.m in Sources */,
 				C20E0713234F1AF6002E9813 /* ViewController.m in Sources */,
 				C20E0745234F4EDA002E9813 /* NSOperationViewController.m in Sources */,
+				C20E075123501E61002E9813 /* DownLoadViewController.m in Sources */,
 				C20E071E234F1AF8002E9813 /* main.m in Sources */,
 				C20E0710234F1AF6002E9813 /* AppDelegate.m in Sources */,
 				C20E0742234F3757002E9813 /* Tools.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C20E071F234F1AF8002E9813 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C20E0728234F1AF8002E9813 /* _1_GCD______Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C20E072A234F1AF8002E9813 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C20E0733234F1AF8002E9813 /* _1_GCD______UITests.m in Sources */,
+				C20E074B235015FE002E9813 /* ConnectNSOperationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C20E0725234F1AF8002E9813 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C20E070A234F1AF6002E9813 /* 01-GCD基本内容信息 */;
-			targetProxy = C20E0724234F1AF8002E9813 /* PBXContainerItemProxy */;
-		};
-		C20E0730234F1AF8002E9813 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C20E070A234F1AF6002E9813 /* 01-GCD基本内容信息 */;
-			targetProxy = C20E072F234F1AF8002E9813 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C20E0714234F1AF6002E9813 /* Main.storyboard */ = {
@@ -451,6 +407,7 @@
 		};
 		C20E0738234F1AF8002E9813 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF9E9EB648AFE8032A891F4 /* Pods-01-GCD基本内容信息.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +425,7 @@
 		};
 		C20E0739234F1AF8002E9813 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5808A3A5278A1B0835AACA /* Pods-01-GCD基本内容信息.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -480,80 +438,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ceshi.shilin.-1-GCD------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C20E073B234F1AF8002E9813 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DUKR3PGXAY;
-				INFOPLIST_FILE = "01-GCD基本内容信息Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ceshi.shilin.-1-GCD------Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-GCD基本内容信息.app/01-GCD基本内容信息";
-			};
-			name = Debug;
-		};
-		C20E073C234F1AF8002E9813 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DUKR3PGXAY;
-				INFOPLIST_FILE = "01-GCD基本内容信息Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ceshi.shilin.-1-GCD------Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-GCD基本内容信息.app/01-GCD基本内容信息";
-			};
-			name = Release;
-		};
-		C20E073E234F1AF8002E9813 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DUKR3PGXAY;
-				INFOPLIST_FILE = "01-GCD基本内容信息UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ceshi.shilin.-1-GCD------UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "01-GCD基本内容信息";
-			};
-			name = Debug;
-		};
-		C20E073F234F1AF8002E9813 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DUKR3PGXAY;
-				INFOPLIST_FILE = "01-GCD基本内容信息UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ceshi.shilin.-1-GCD------UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "01-GCD基本内容信息";
 			};
 			name = Release;
 		};
@@ -574,24 +458,6 @@
 			buildConfigurations = (
 				C20E0738234F1AF8002E9813 /* Debug */,
 				C20E0739234F1AF8002E9813 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C20E073A234F1AF8002E9813 /* Build configuration list for PBXNativeTarget "01-GCD基本内容信息Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C20E073B234F1AF8002E9813 /* Debug */,
-				C20E073C234F1AF8002E9813 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C20E073D234F1AF8002E9813 /* Build configuration list for PBXNativeTarget "01-GCD基本内容信息UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C20E073E234F1AF8002E9813 /* Debug */,
-				C20E073F234F1AF8002E9813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
