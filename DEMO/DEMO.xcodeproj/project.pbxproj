@@ -19,6 +19,7 @@
 		C2B58F562355638C002F4EB9 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B58F552355638C002F4EB9 /* Student.m */; };
 		C2B58F59235578D9002F4EB9 /* Dock.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B58F58235578D9002F4EB9 /* Dock.m */; };
 		C2B58F5C23558239002F4EB9 /* IconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B58F5B23558239002F4EB9 /* IconButton.m */; };
+		C2B58F5F2355B261002F4EB9 /* NotionControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B58F5E2355B261002F4EB9 /* NotionControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		C2B58F58235578D9002F4EB9 /* Dock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dock.m; sourceTree = "<group>"; };
 		C2B58F5A23558239002F4EB9 /* IconButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconButton.h; sourceTree = "<group>"; };
 		C2B58F5B23558239002F4EB9 /* IconButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconButton.m; sourceTree = "<group>"; };
+		C2B58F5D2355B261002F4EB9 /* NotionControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotionControl.h; sourceTree = "<group>"; };
+		C2B58F5E2355B261002F4EB9 /* NotionControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotionControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				C2B58F58235578D9002F4EB9 /* Dock.m */,
 				C2B58F5A23558239002F4EB9 /* IconButton.h */,
 				C2B58F5B23558239002F4EB9 /* IconButton.m */,
+				C2B58F5D2355B261002F4EB9 /* NotionControl.h */,
+				C2B58F5E2355B261002F4EB9 /* NotionControl.m */,
 				C2B58F2523555F2A002F4EB9 /* Main.storyboard */,
 				C2B58F2823555F2B002F4EB9 /* Assets.xcassets */,
 				C2B58F2A23555F2B002F4EB9 /* LaunchScreen.storyboard */,
@@ -284,6 +289,7 @@
 			files = (
 				C2B58F59235578D9002F4EB9 /* Dock.m in Sources */,
 				C2B58F5C23558239002F4EB9 /* IconButton.m in Sources */,
+				C2B58F5F2355B261002F4EB9 /* NotionControl.m in Sources */,
 				C2B58F2423555F2A002F4EB9 /* ViewController.m in Sources */,
 				C2B58F5323555F3D002F4EB9 /* SQLiteManger.m in Sources */,
 				C2B58F562355638C002F4EB9 /* Student.m in Sources */,
