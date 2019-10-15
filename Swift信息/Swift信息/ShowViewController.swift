@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ShowViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -17,6 +18,8 @@ class ShowViewController: UIViewController {
          数据库内容信息处理
          */
 //        DBM_INSERT
+//        SQLiteMangager.shareInstance().
+        
         
     }
     
@@ -53,8 +56,16 @@ class ShowViewController: UIViewController {
      select name ,age from t_student limet 5 ; /// 跳过0条数据 默认5条数据
      
      
+     ///1: c创建一个数据库文件
+     /// 2:创建一个表
+     
+     ///3: 添加数据库/ 删除数据/ 更新数据
+     
+     ///4:查询数据
+     
      
      */
 
+    
 
 }

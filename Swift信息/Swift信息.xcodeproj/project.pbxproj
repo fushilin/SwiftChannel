@@ -17,6 +17,8 @@
 		C2B58F0723547596002F4EB9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B58F0623547595002F4EB9 /* Person.swift */; };
 		C2B58F0B23547A03002F4EB9 /* HttopsTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B58F0A23547A03002F4EB9 /* HttopsTools.m */; };
 		C2B58F0D23549626002F4EB9 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B58F0C23549626002F4EB9 /* ShowViewController.swift */; };
+		C2B58F0F23555CA7002F4EB9 /* SQLiteManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B58F0E23555CA7002F4EB9 /* SQLiteManger.swift */; };
+		C2B58F1223555CBB002F4EB9 /* SQLiteMangager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B58F1123555CBB002F4EB9 /* SQLiteMangager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		C2B58F0923547A03002F4EB9 /* HttopsTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttopsTools.h; sourceTree = "<group>"; };
 		C2B58F0A23547A03002F4EB9 /* HttopsTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttopsTools.m; sourceTree = "<group>"; };
 		C2B58F0C23549626002F4EB9 /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		C2B58F0E23555CA7002F4EB9 /* SQLiteManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteManger.swift; sourceTree = "<group>"; };
+		C2B58F1023555CBB002F4EB9 /* SQLiteMangager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLiteMangager.h; sourceTree = "<group>"; };
+		C2B58F1123555CBB002F4EB9 /* SQLiteMangager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteMangager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				C2B58F0623547595002F4EB9 /* Person.swift */,
 				C2B58F0923547A03002F4EB9 /* HttopsTools.h */,
 				C2B58F0A23547A03002F4EB9 /* HttopsTools.m */,
+				C2B58F1023555CBB002F4EB9 /* SQLiteMangager.h */,
+				C2B58F1123555CBB002F4EB9 /* SQLiteMangager.m */,
+				C2B58F0E23555CA7002F4EB9 /* SQLiteManger.swift */,
 				C2B58EDC23547585002F4EB9 /* Main.storyboard */,
 				C2B58EDF23547586002F4EB9 /* Assets.xcassets */,
 				C2B58EE123547586002F4EB9 /* LaunchScreen.storyboard */,
@@ -272,9 +280,11 @@
 			files = (
 				C2B58F0D23549626002F4EB9 /* ShowViewController.swift in Sources */,
 				C2B58F0723547596002F4EB9 /* Person.swift in Sources */,
+				C2B58F1223555CBB002F4EB9 /* SQLiteMangager.m in Sources */,
 				C2B58EDB23547585002F4EB9 /* ViewController.swift in Sources */,
 				C2B58ED923547585002F4EB9 /* AppDelegate.swift in Sources */,
 				C2B58F0B23547A03002F4EB9 /* HttopsTools.m in Sources */,
+				C2B58F0F23555CA7002F4EB9 /* SQLiteManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ceshi.shilin.Swift--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Swift信息/Swift信息-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Swift信息/Swift信息-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,7 +490,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ceshi.shilin.Swift--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Swift信息/Swift信息-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Swift信息/Swift信息-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
